@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  .info{
+    color: r;
+  }
+  
+  .html{
+    width: 33px;
+    
+  }
+  .bash{
+    width: 33px;
+  }
+  .linux{
+    width: 51px;
+  }
+  
+ .css{
+    width:30px ;
+
+  }
+
+  
+.mail{
+  
+width: 1px;
+}
+
+  body {
+    padding: 0 30px;
+    font-size: 20px;
+    color: #264653;
+  }
+  main ul{
+    flex:550px;
+    
+  }
+  header {
+    display: flex;
+    /* Justify-content : axe principal (horizontal) */
+    justify-content: space-around;
+    /* Align-items : axe secondaire (vertical) */
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #264653;
+    /* 18px => haut et bas */
+    /* 0 => droit et gauche */
+    padding: 18px 0;
+  }
+  
+  /* Header */
+  
+  header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* Permet de rendre plus net une image */
+    object-fit: cover;
+  }
+  
+  .personnel{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #e9c46a;
+  }
+  .poste {
+    font-size: 24px;
+    color: #2a9d8f;
+  }
+  
+  ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    list-style: none;
+    font-size: 20px;
+    color: #ff5722;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100px;
+  }
+  
+  /* Contenu principal */
+  
+  main, .p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+     flex-direction: row-reverse;
+     text-transform: uppercase;
+     font-size: 12px;
+     color: #e76f51;
+     margin-bottom: 18px;
+        
+  }
+  
+  .h2{ 
+    color: #264653;
+
+  }
+
+  
+  /* Colonne de gauche */
+  
+  .colonne-gauche {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  .colonne-gauche ,
+  #objectif {
+    border-bottom: 2px solid #264653;
+    padding-bottom: 24px;
+  }
+  
+  .colonne-droite ul {
+    display: flex;
+    flex-direction: column;
+    
+    list-style: none;
+  }
+  
+  .list-item h3 {
+    color: #264653;
+  }
+  
+  .list-item p {
+    font-size: 16px;
+  }
+  
+  /* Colonne de droite */
+  
+  #column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  #colonne-droite ul {
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 40px;
+  }
+  
+  #colonne-droite li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Footer */
+  
+  footer {
+
+    margin-top: 35px;
+    padding: 20px 10px;
+    background-color: #264653;
+    justify-content: center;
+    display: flex;
+  
+  }
+    
+  .date{
+    color: #e9c46a;
+    font-size: 14px;
+  }
+
+.github{
+  width: 22px;
+}
+.pdf{
+  width: 22px;
+}
